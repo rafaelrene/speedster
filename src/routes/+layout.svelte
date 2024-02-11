@@ -2,4 +2,6 @@
 	import '../app.pcss';
 </script>
 
-<slot />
+<div class="m-auto flex w-96 flex-col">
+	<slot />
+</div>
